@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>obokolon</title>
+<meta name="author" content="Debayan Sen">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="base/jquery-ui.min.css" rel="stylesheet">
+<link href="obokolon.css" rel="stylesheet">
+<link href="index.css" rel="stylesheet">
+<script src="jquery-1.12.4.min.js"></script>
+<script src="jquery-ui.min.js"></script>
+<script>
+$(document).ready(function()
+{
+   $("#Slider1").slider(
+   {
+      orientation: 'horizontal',
+      animate: true,
+      range: false,
+      min: 0,
+      max: 100,
+      value: 0
+   });
+});
+</script>
+</head>
+<body>
+<div id="container">
+<div id="wb_Form1">
+<form name="Form1" method="post" action="https://docs.google.com/forms/d/e/1FAIpQLSeF7MocoZWeCgUn2NGLFkk5bezwEXryDlaYRMTff3FG5gPMbA/formResponse" enctype="multipart/form-data" target="InlineFrame1" id="Form1">
+<textarea name="entry.868762586" id="TextArea1" rows="1" cols="50" spellcheck="false">3x^3+4x^2+2log(sin(x))</textarea>
+<input type="submit" id="Button1" name="" value="ক্লিক করুন">
+<input type="submit" id="Button2" onclick="window.location.href='./help.html';return false;" name="" value="Help">
+</form>
+</div>
+<div id="Banner1"><span>&#2437;&#2476;&#2453;&#2482;&#2472; </span></div>
+<div id="wb_Text1">
+<span style="color:#000000;font-family:Arial;font-size:16px;">নীচের বক্সে ফাংশান বসাও </span></div>
+<label for="" id="Label1">`f(x)=`</label>
+<div id="Slider1">
+</div>
+<div id="Html1">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/5.4.2/math.min.js"></script>
+<script src="main.js"></script>
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=AM_HTMLorMML-full"></script></div>
+<div id="Layer1">
+</div>
+<div id="Layer2">
+</div>
+<div id="wb_Text2">
+<span style="color:#000000;font-family:Arial;font-size:13px;">Created By Debayan Sen - 2019 - v-1.0.0<br>used JavaScript Lib. MathJs and MathJax<br>Contact: debayan9@rediffmail.com</span></div>
+<iframe name="InlineFrame1" id="InlineFrame1" src=""></iframe>
+</div>
+</body>
+</html>
